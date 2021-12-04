@@ -1,0 +1,43 @@
+body {
+  margin: 0 10%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+th {
+  text-align: start;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+
+#name {
+  flex-grow: 1;
+}
+
+#container {
+  width: 80%;
+}
+
+#table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#table td, #table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#table th {
+  background-color: black;
+  color: white;
+}
+
+#table tr:nth-child(even){background-color: #ececec;}
+
+#container {
+  width: 100%;
+}
